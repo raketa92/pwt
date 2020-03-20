@@ -4,3 +4,4 @@
 + color: blue+gray
 + slider responsive
 - emails sending
+- add language select block
