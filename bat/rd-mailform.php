@@ -113,6 +113,8 @@ try {
 
         // Password to use for SMTP authentication
         $mail->Password = $formConfig['password'];
+
+
     }
 
     $mail->From = $_POST['email'];

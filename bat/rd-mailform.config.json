@@ -2,7 +2,8 @@
   "useSmtp": false,
   "host": "stmp.gmail.com",
   "port": 465,
-  "username": "demo@gmail.com",
-  "password": "demopassword",
-  "recipientEmail": "demo@gmail.com"
+  "username": "nazar.erdem",
+  "password": "miracledota2liquid",
+  "recipientEmail": "nazar.erdem@gmail.com"
 }
+
