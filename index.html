@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -27,7 +29,7 @@
     <div class="page">
       <section class="section section-relative section-header">
         <!-- Page Header-->
-        <header class="section page-header header-absolute">
+        <header class="section page-header header-absolute" id="header">
           <!-- RD Navbar-->
           <div class="rd-navbar-wrap">
             <nav class="rd-navbar rd-navbar-aside" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
@@ -54,7 +56,7 @@
                   <div class="rd-navbar-nav-wrap">
                     <!-- RD Navbar  Nav-->
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html#header">Home</a>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#projects">Projects</a>
                       </li>
@@ -72,7 +74,25 @@
           </div>
         </header>
         <!-- Preview section-->
-        <section class="section context-dark section-jumbotron bg-cover" style="background: url(images/bg-image.jpg) #151515">
+
+        <div class="slide-section col-12">
+          <div>
+            <img src="images/slider/zavod.jpg" alt="slide1">
+          </div>
+          <div>
+            <img src="images/slider/zavod2.jpg" alt="slide2">
+          </div>
+          <div>
+            <img src="images/slider/zavod6.jpg" alt="slide3">
+          </div>
+        </div>
+
+
+
+        <section class="section context-dark section-jumbotron bg-cover">
+
+
+
           <div class="panel-left"><a class="brand" href="index.html">
             <img class="brand-logo-dark" src="images/Logo_PWT_web.gif" alt="" width="232" height="67"/>
             <img class="brand-logo-light" src="images/Logo_PWT_web.gif" alt="" width="86" height="104"/></a>
@@ -98,11 +118,11 @@
               </div>
             </div>
           </div>
-          <ul class="project-list">
-            <li class="bg-image" style="background-image: url(hungary_site_images/dws-van-oord-porto-central-dredger-770px.jpg)"><a href="#">Architecture</a></li>
-            <li class="bg-image" style="background-image: url(hungary_site_images/2018.08.27-2.jpg)"><a href="#">3d modeling</a></li>
-            <li class="bg-image" style="background-image: url(hungary_site_images/Flex10.jpg)"><a href="#">Design</a></li>
-          </ul>
+          <!--<ul class="project-list">-->
+            <!--<li class="bg-image" style="background-image: url(hungary_site_images/dws-van-oord-porto-central-dredger-770px.jpg)"><a href="#">Architecture</a></li>-->
+            <!--<li class="bg-image" style="background-image: url(hungary_site_images/2018.08.27-2.jpg)"><a href="#">3d modeling</a></li>-->
+            <!--<li class="bg-image" style="background-image: url(hungary_site_images/Flex10.jpg)"><a href="#">Design</a></li>-->
+          <!--</ul>-->
         </section>
       </section>
       <!-- Portfolio-->
@@ -417,7 +437,7 @@
       <div class="pre-footer-classic bg-gray-700 context-dark">
         <div class="container">
           <div class="row row-30 justify-content-lg-between">
-            <div class="col-sm-6 col-lg-3 col-xl-3">
+            <div class="col-lg-8 col-md-7 col-sm-11">
               <h5>Location</h5>
               <ul class="list list-sm">
                 <li>
@@ -431,7 +451,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="col-lg-4 col-md-5 col-sm-11">
               <h5>Contacts</h5>
               <dl class="list-terms-custom">
                 <dt>Ph.</dt>
@@ -448,19 +468,19 @@
                 <li><a class="icon icon-sm icon-gray-filled icon-circle mdi mdi-twitter" href="#"></a></li>
               </ul>
             </div>
-            <div class="col-lg-4">
-              <h5>Newsletter</h5>
-              <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-                <div class="form-wrap form-wrap-icon">
-                  <div class="form-icon mdi mdi-email-outline"></div>
-                  <input class="form-input" id="footer-email" type="email" name="email" data-constraints="@Email @Required">
-                  <label class="form-label" for="footer-email">E-mail</label>
-                </div>
-                <div class="button-wrap">
-                  <button class="button button-default button-invariable" type="submit">Subscribe</button>
-                </div>
-              </form>
-            </div>
+            <!--<div class="col-lg-4">-->
+              <!--<h5>Newsletter</h5>-->
+              <!--<form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">-->
+                <!--<div class="form-wrap form-wrap-icon">-->
+                  <!--<div class="form-icon mdi mdi-email-outline"></div>-->
+                  <!--<input class="form-input" id="footer-email" type="email" name="email" data-constraints="@Email @Required">-->
+                  <!--<label class="form-label" for="footer-email">E-mail</label>-->
+                <!--</div>-->
+                <!--<div class="button-wrap">-->
+                  <!--<button class="button button-default button-invariable" type="submit">Subscribe</button>-->
+                <!--</div>-->
+              <!--</form>-->
+            <!--</div>-->
           </div>
         </div>
       </div>
@@ -468,13 +488,13 @@
         <div class="container">
           <div class="row row-15 justify-content-lg-between">
             <div class="col-lg-4 col-xl-3 text-lg-left">
-              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. Design by <a href="https://www.templatemonster.com">TemplateMonster</a></p>
+              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. PWT</p>
             </div>
             <div class="col-lg-5 col-xl-6">
               <ul class="list-inline list-inline-lg text-uppercase">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Our Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="index.html#header">Home</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
               </ul>
             </div>
           </div>
@@ -484,6 +504,9 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <!--<script src="node_modules/jquery/dist/jquery.min.js"></script>-->
+    <script src="slick/slick.min.js"></script>
+    <script src="js/slick-slider.js"></script>
     <!-- coded by Drel-->
   </body>
 </html>

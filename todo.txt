@@ -1,0 +1,6 @@
+- change location of images
+- make 3 languages of website
++ slider with facility images
++ color: blue+gray
++ slider responsive
+- emails sending
