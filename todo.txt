@@ -4,7 +4,8 @@
 + color: blue+gray
 + slider responsive
 + emails sending
-- add language select block
++ add language select block
+- add language select block responsive
 - social links
 + change email settings (can't recieve from mail ru)
 - approve text
