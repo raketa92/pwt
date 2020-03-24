@@ -7,3 +7,4 @@
 - add language select block
 - social links
 + change email settings (can't recieve from mail ru)
+- approve text
