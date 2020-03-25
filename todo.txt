@@ -6,6 +6,8 @@
 + emails sending
 + add language select block
 - add language select block responsive
+- add language block on contact page
+- modify flags
 - social links
 + change email settings (can't recieve from mail ru)
 - approve text
