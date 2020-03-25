@@ -5,9 +5,14 @@
 + slider responsive
 + emails sending
 + add language select block
-- add language select block responsive
-- add language block on contact page
-- modify flags
++ add language select block responsive
++ add language block on contact page
++ modify flags
 - social links
 + change email settings (can't recieve from mail ru)
 - approve text
+- each slider own text
+- color of slider text
+- auto slide big slider
+- auto slide testimonials
+- background image paths
