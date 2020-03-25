@@ -10,7 +10,7 @@
             cssEase: 'linear',
             // slidesToShow: 3,
             slidesToScroll: 1,
-            autoplay: false
+            // autoplay: true
         });
     });
 

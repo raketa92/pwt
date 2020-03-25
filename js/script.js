@@ -239,8 +239,9 @@
 
 
 			c.owlCarousel({
-				autoplay: isNoviBuilder ? false : c.attr("data-autoplay") === "true",
-				loop: isNoviBuilder ? false : c.attr("data-loop") !== "false",
+				autoplay: true,
+				loop: true,
+                autoplayTimeout: 4000,
 				items: 1,
 				center: c.attr("data-center") === "true",
 				dotsContainer: c.attr("data-pagination-class") || false,
