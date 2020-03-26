@@ -11,8 +11,8 @@
 - social links
 + change email settings (can't recieve from mail ru)
 - approve text
-- each slider own text
-- color of slider text
++ each slider own text
++ color of slider text
 - auto slide big slider
-- auto slide testimonials
++ auto slide testimonials
 - background image paths
