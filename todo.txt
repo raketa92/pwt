@@ -16,3 +16,5 @@
 - auto slide big slider
 + auto slide testimonials
 - background image paths
++ text on the right of logo
++ text "pwt" on slider image
