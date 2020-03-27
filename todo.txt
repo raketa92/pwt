@@ -18,3 +18,4 @@
 - background image paths
 + text on the right of logo
 + text "pwt" on slider image
++ slider text responsive
