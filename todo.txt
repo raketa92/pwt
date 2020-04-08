@@ -1,5 +1,4 @@
 + change location of images
-- make 3 languages of website
 + slider with facility images
 + color: blue+gray
 + slider responsive
@@ -8,14 +7,15 @@
 + add language select block responsive
 + add language block on contact page
 + modify flags
-- social links
 + change email settings (can't recieve from mail ru)
-- approve text
 + each slider own text
 + color of slider text
-- auto slide big slider
 + auto slide testimonials
-- background image paths
 + text on the right of logo
 + text "pwt" on slider image
 + slider text responsive
++ auto slide big slider
+- background image paths
+- make 3 languages of website
+- social links
+- approve text
