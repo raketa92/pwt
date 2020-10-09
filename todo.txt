@@ -16,7 +16,7 @@
 + slider text responsive
 + auto slide big slider
 + background image paths
-- make 3 languages of website
++ make 3 languages of website
 - social links
 - approve text
-- create mail accounts
++ create mail accounts
